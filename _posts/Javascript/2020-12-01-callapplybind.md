@@ -2,8 +2,8 @@
 layout: post
 title: "call, apply, bind"
 date: 2020-12-02 11:20:30  +0800
-categories: [자바스크립트, 개념 정리]
-tags: [자바스크립트, call, apply, bind]
+categories: [Javascript, 개념 정리]
+tags: [javascript, call, apply, bind]
 ---
 
 내가 보기 위해 적는 비공개 함수 메소드 이해방식.

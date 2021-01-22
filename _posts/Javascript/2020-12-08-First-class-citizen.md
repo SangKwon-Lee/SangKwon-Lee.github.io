@@ -2,8 +2,8 @@
 layout: post
 title: 'First-class citizen 일급 객체'
 date: 2020-12-08 11:20:30  +0800
-categories: [자바스크립트, 개념 정리]
-tags: [자바스크립트]
+categories: [Javascript, 개념 정리]
+tags: [javascript, 일급 객체]
 ---
 
 # **First-class citizen 일급 객체**

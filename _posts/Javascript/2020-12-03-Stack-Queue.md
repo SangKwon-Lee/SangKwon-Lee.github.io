@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "데이터 자료구조. Stack / Queue"
+title: '데이터 자료구조. Stack / Queue'
 date: 2020-12-03 11:20:30  +0800
-categories: [자바스크립트, Data Structure]
-tags: [자바스크립트]
+categories: [Javascript, Data Structure]
+tags: [javascript, stack, queue]
 ---
 
 ## **1. 자료 구조 (Data Structure)**
@@ -37,29 +37,29 @@ tags: [자바스크립트]
 
 ```js
 class Stack {
-  constructor() {
-    this.storage = {}; // 내가 저장할 빈 객체. 혹은 빈 배열도 가능 // this.storage ={} 말고 storage = {} 해도 괜찮음.
-    this.top = -1; // -1이면 객체의 시작을 0으로 한다는 것. 0이면 1로 시작.
-  }
-  size() {
-    return this.top + 1; // 객체에 길이. 값을 몇 번이나 추가 했는지 알려주는 것.
-  }
+	constructor() {
+		this.storage = {}; // 내가 저장할 빈 객체. 혹은 빈 배열도 가능 // this.storage ={} 말고 storage = {} 해도 괜찮음.
+		this.top = -1; // -1이면 객체의 시작을 0으로 한다는 것. 0이면 1로 시작.
+	}
+	size() {
+		return this.top + 1; // 객체에 길이. 값을 몇 번이나 추가 했는지 알려주는 것.
+	}
 
-  push(element) {
-    this.top++; // 값을 넣기 전에 우선 top의 값을 올려준다.
-    this.storage[this.top] = element; // 그리고 그 객체에 키를 this.top으로 주고, 값을 element.
-  }
+	push(element) {
+		this.top++; // 값을 넣기 전에 우선 top의 값을 올려준다.
+		this.storage[this.top] = element; // 그리고 그 객체에 키를 this.top으로 주고, 값을 element.
+	}
 
-  pop() {
-    if (this.top < 0) {
-      // 빈 객체여도 pop의 명령어가 오류를 뱉지 않도록 만들어주는 조건문.
-      return;
-    }
-    let pop = this.storage[this.top]; // 우선 추출할 값을 할당을 해줘야 한다.
-    delete this.storage[this.top]; // 값을 할당 후 추출할 값을 객체에서 삭제.
-    this.top--; // 그리고 나서 키 값을 1개를 줄여줘서 이후 push를 할 때 this.top의 값이 정상적으로 나오기 위함.
-    return pop; // 그리고 나서 할당해 줬던 값을 추출.
-  }
+	pop() {
+		if (this.top < 0) {
+			// 빈 객체여도 pop의 명령어가 오류를 뱉지 않도록 만들어주는 조건문.
+			return;
+		}
+		let pop = this.storage[this.top]; // 우선 추출할 값을 할당을 해줘야 한다.
+		delete this.storage[this.top]; // 값을 할당 후 추출할 값을 객체에서 삭제.
+		this.top--; // 그리고 나서 키 값을 1개를 줄여줘서 이후 push를 할 때 this.top의 값이 정상적으로 나오기 위함.
+		return pop; // 그리고 나서 할당해 줬던 값을 추출.
+	}
 }
 ```
 
@@ -108,29 +108,29 @@ let pop = 'c'가 되게 만들어 준다. this.storage[this.top]의 value를 우
 
 ```js
 class Queue {
-  constructor() {
-    this.storage = {}; // 빈 객체를 지정. 여기다가 데이터를 넣을 것이다.
-    this.front = 0; // 객체의 시작 부분 // 우리가 추출할 부분
-    this.rear = 0; // 객체의 끝 부분 // 데이터가 들어가는 곳.
-    // 스택은 출입구가 똑같아 1개지만 큐는 입구와 출구가 달라 front/rear로 나뉘는 것.
-  }
+	constructor() {
+		this.storage = {}; // 빈 객체를 지정. 여기다가 데이터를 넣을 것이다.
+		this.front = 0; // 객체의 시작 부분 // 우리가 추출할 부분
+		this.rear = 0; // 객체의 끝 부분 // 데이터가 들어가는 곳.
+		// 스택은 출입구가 똑같아 1개지만 큐는 입구와 출구가 달라 front/rear로 나뉘는 것.
+	}
 
-  size() {
-    return this.rear - this.front; // 객체의 전체 길이
-  }
-  enqueue(element) {
-    this.storage[this.rear] = element; // 이번에는 초기 값이 0이니 먼저 데이터를 넣고 그 이후에 ++
-    this.rear++;
-  }
-  dequeue() {
-    if (this.rear - this.front < 1) {
-      return; // 객체가 비어도 계속 사용할 수 있게.
-    }
-    let removed = this.storage[this.front]; // 추출할 값을 먼저 할당
-    delete this.storage[this.front]; // 그리고 추출할 값을 객체에서 삭제
-    this.front++; // 삭제하고 나서 ++를 해줘야지 그 다음 객체를 삭제할 수 있다.
-    return removed; // 삭제한 값 추출
-  }
+	size() {
+		return this.rear - this.front; // 객체의 전체 길이
+	}
+	enqueue(element) {
+		this.storage[this.rear] = element; // 이번에는 초기 값이 0이니 먼저 데이터를 넣고 그 이후에 ++
+		this.rear++;
+	}
+	dequeue() {
+		if (this.rear - this.front < 1) {
+			return; // 객체가 비어도 계속 사용할 수 있게.
+		}
+		let removed = this.storage[this.front]; // 추출할 값을 먼저 할당
+		delete this.storage[this.front]; // 그리고 추출할 값을 객체에서 삭제
+		this.front++; // 삭제하고 나서 ++를 해줘야지 그 다음 객체를 삭제할 수 있다.
+		return removed; // 삭제한 값 추출
+	}
 }
 ```
 

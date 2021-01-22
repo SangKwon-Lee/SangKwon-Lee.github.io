@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Scope / Closure/currying 개념 파악"
+title: 'Scope / Closure/ currying 개념 파악'
 date: 2020-12-05 11:20:30  +0800
-categories: [자바스크립트, 개념 정리]
-tags: [자바스크립트]
+categories: [Javascript, 개념 정리]
+tags: [javascript, scope, closure, currying]
 ---
 
 오늘은 스코프와 클로저에 대해 아.라.보.자.
@@ -21,10 +21,10 @@ tags: [자바스크립트]
 # **Local Scope / Global Scope (지역변수 / 전역변수)**
 
 ```js
-let greeting = "Hello";
+let greeting = 'Hello';
 function greetSomeone() {
-  let firstName = "Josh";
-  return greeting + " " + firstName;
+	let firstName = 'Josh';
+	return greeting + ' ' + firstName;
 }
 
 greetSomeone(); // => 'Hello Josh'
@@ -91,9 +91,9 @@ console.log('final i:', i); //  -> 에러
 
 ```js
 for (var i = 0; i < 5; i++) {
-  console.log(i); // 다섯번 iteration
+	console.log(i); // 다섯번 iteration
 }
-console.log("final i:", i); // -> 5
+console.log('final i:', i); // -> 5
 ```
 
 i를 나중에 또 쓸 수 있기 때문에 var 보다는 사용했던 범위 안에서만 가능한 let을 사용하는 것이 안전.
@@ -128,13 +128,13 @@ var pu = 3.141592 // 가능
 
 ```js
 function outer() {
-  let outer = "outer";
-  console.log(outer);
+	let outer = 'outer';
+	console.log(outer);
 
-  function inner() {
-    let inner = "inner";
-    console.log(inner);
-  }
+	function inner() {
+		let inner = 'inner';
+		console.log(inner);
+	}
 }
 ```
 
@@ -155,7 +155,7 @@ inner와 outer 둘 다 지역 변수인 Let outer / let inner이 있다.
 
 ```js
 function sum(a, b, c) {
-  return a + b + c;
+	return a + b + c;
 }
 
 let curriedSum = curry(sum);
