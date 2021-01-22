@@ -2,7 +2,7 @@
 layout: post
 title: "call, apply, bind"
 date: 2020-12-02 11:20:30  +0800
-categories: [Javascript, 개념 정리]
+categories: [자바스크립트, 개념 정리]
 tags: [javascript, call, apply, bind]
 ---
 

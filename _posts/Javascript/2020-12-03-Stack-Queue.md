@@ -2,7 +2,7 @@
 layout: post
 title: '데이터 자료구조. Stack / Queue'
 date: 2020-12-03 11:20:30  +0800
-categories: [Javascript, Data Structure]
+categories: [자바스크립트, Data Structure]
 tags: [javascript, stack, queue]
 ---
 

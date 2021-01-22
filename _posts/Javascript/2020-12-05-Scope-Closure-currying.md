@@ -2,7 +2,7 @@
 layout: post
 title: 'Scope / Closure/ currying 개념 파악'
 date: 2020-12-05 11:20:30  +0800
-categories: [Javascript, 개념 정리]
+categories: [자바스크립트, 개념 정리]
 tags: [javascript, scope, closure, currying]
 ---
 
