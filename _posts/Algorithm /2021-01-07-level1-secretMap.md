@@ -3,7 +3,7 @@ layout: post
 title: "알고리즘 > 프로그래머스 1단계 카카오 [1차]비밀지도"
 date: 2021-01-07 11:20:30  +0800
 categories: [Algorithm, 프로그래머스 1단계]
-tags: [Javascript, Algorithm, 프로그래머스]
+tags: [Javascript, algorithm, 프로그래머스]
 ---
 
 ## **2018 KAKAO BLIND RECRUITMENT [1차]비밀지도**

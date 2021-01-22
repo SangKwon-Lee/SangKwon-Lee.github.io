@@ -2,7 +2,7 @@
 layout: post
 title: 'Sequelize 개념 정리를 스프린트로 해보자'
 date: 2021-01-19 11:15:30  +0800
-categories: [자바스크립트, 개념 정리]
+categories: [Javascript, 개념 정리]
 tags: [javascript, sequelize]
 ---
 

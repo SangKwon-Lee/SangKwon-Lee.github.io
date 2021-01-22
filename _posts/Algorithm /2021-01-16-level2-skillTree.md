@@ -3,7 +3,7 @@ layout: post
 title: "알고리즘 > 프로그래머스 2단계 스킬트리"
 date: 2021-01-20 11:20:30  +0800
 categories: [Algorithm, 프로그래머스 2단계]
-tags: [Javascript, Algorithm, 프로그래머스]
+tags: [Javascript, algorithm, 프로그래머스]
 ---
 
 2단계 스킬트리라는 문제다.  

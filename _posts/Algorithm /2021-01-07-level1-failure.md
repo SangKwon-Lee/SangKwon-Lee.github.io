@@ -3,7 +3,7 @@ layout: post
 title: "알고리즘 > 프로그래머스 1단계 실패율"
 date: 2021-01-07 11:20:30  +0800
 categories: [Algorithm, 프로그래머스 1단계]
-tags: [Javascript, Algorithm, 프로그래머스]
+tags: [Javascript, algorithm, 프로그래머스]
 ---
 
 ## **2019 KAKAO BLIOND RECRUITMENT 실패율**

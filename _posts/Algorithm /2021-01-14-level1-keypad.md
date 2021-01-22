@@ -3,7 +3,7 @@ layout: post
 title: "알고리즘 > 프로그래머스 1단계 카카오 키패드 누르기"
 date: 2021-01-14 11:20:30  +0800
 categories: [Algorithm, 프로그래머스 1단계]
-tags: [Javascript, Algorithm, 프로그래머스]
+tags: [Javascript, algorithm, 프로그래머스]
 ---
 
 처음에 접근은 잘했지만,  
