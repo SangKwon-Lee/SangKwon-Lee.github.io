@@ -1,5 +1,6 @@
 ---
 title: About
+
 # The About page
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy
@@ -7,38 +8,37 @@ title: About
 # MIT License
 ---
 
-# **코 공**
+# Info
+**한보경 (Bokyoung Han)** <br>
+M.S Student <br>
+Computer ARchitecture & Embedded System Lab **(CARES)** <br>
+Department of Computer Science and Engineering <br>
+Seoul National University **(SNU)**
 
-<br>
-2021년 코공 블로그 새롭게 시작합니다. <br>
+## Interests
+ - Computer Architecture
+ - Embedded System
+ - Machine Learning
 
-기존에 사용하던 [벨로그](https://velog.io/@rnrel11)(코공 벨로그)가 새해를 맞이하며 새로운 출발을 하게 됐습니다.
+## Education
+ - **M.S., Computer Science and Engineering** (2020∼ )  
+    - Seoul National University [(SNU)](https://www.snu.ac.kr/), Korea  
+	- Computer ARchitecture & Embedded Systems Lab [(CARES)](http://cares.snu.ac.kr)  
+	- Advisor: Prof. Jihong Kim  
+ - **B.S., Computer Science and Engineering** (2015∼ 2020)  
+    - Handong Global Univertiy [(HGU)](https://www.hisnet.handong.edu/), Korea  
+	- Research to Advaned SW Reliability, Security & Safety [(ARISE)](http://arise.handong.edu)
+	- Advisor: Prof. Shin Hong  
 
-**벨로그**가 오피스텔이라면, **Git blog**는 아파트 같은 느낌..?<br>
-오피스텔도 참 좋지만 집값은 부동산이 최고라는 것 ^\_\_^ **니가 뭘 알아?**
+## Personal History
+- Grand Prize, KISA, Oct 2018
+   - KISA (한국인터넷진흥원) 주최 제 5회 ‘소프트웨어(SW)개발보안 경진대회’ 최수우상 (행정안전부장관상) 수상
+- Capstone Project, Jan 2018 - Oct 2019
+   - PHP 보안 약점 정적 분석기 도구 개발
+- CSTS (Certified Software Test Specialist), TTA, Sep 2018
+   - Acquisition of "CSTS SW Test Expert Certificate, Foundation Level" hosted by TTA
 
-새로운 블로그로 이사를 권유한 친구가 있어서 알아보던 중 내 방을 인테리어 할 수 있는 장점이 있어 오게 됐다.<br>
-누구로 인해 이곳에 오게 됐는지 궁금하다면  
-**'가난'**을 꺼꾸로 해보시오.
-
-새롭게 이사한 아파트에서 한 번 잘 살아보자!
-
-#### **보시기에 좋았더라**
-
----
-
-#### **도움 주신 분**
-
-<br>
-
-코딩을 배울 수 있도록 권유해준 **한보경**
-
-항상 응원해주는 **신정택** **김효주**
-
-함께 코딩 공부를 하는 코공 해적단 **박지상** **김제현**
-
-깃 블로그를 만들 수 있도록 도와주신 **무나위키** **졸린새**
-
-블로그 참고를 도와주신 **codeFabian**
-
-감사합니다.
+## Contact
+- Email: bkhan@davinci.snu.ac.kr
+- Git: https://github.com/BoKyoungHan
+- Blog: https://bokyounghan.github.io/
