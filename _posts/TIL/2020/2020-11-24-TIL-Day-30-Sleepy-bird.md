@@ -2,8 +2,8 @@
 layout: post
 title: "TIL 30일차 - [졸린새X코공]solo-week-sprint-vanillaJS 계획"
 date: 2020-11-24 11:20:30  +0800
-categories: [티아이엘, 2020년 11월]
-tags: [티아이엘]
+categories: [TIL, 2020년 11월]
+tags: [TIL]
 ---
 
 ![image](/assets/img/sample/avatar.jpg)
