@@ -4,37 +4,36 @@
 # © 2017-2019 Cotes Chung
 # MIT licensed
 
-
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: BoKyoung                          # the main title
+title: Kogong # the main title
 
-tagline: M.S student in CSEE   # it will display as the sub-title
+tagline: 보시기에 좋았더라. # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-    컴공 대학원생이 트러블슈팅과 공부한 이런저런 것들을 올립니다. 
+description: >- # used by seo meta and the atom feed
+  코딩하는 공자
+  코공의 블로그 입니다.
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://bokyounghan.github.io'
+# fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
+url: "https://sangkwon-lee.github.io"
 
-author: BokyoungHan                  # change to your full name
+author: SangKwon-Lee # change to your full name
 
-# the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/profile/profile_img.jpg
+avatar: /assets/img/sample/avatar.jpg # support internet resources
 
 github:
-  username: BoKyoungHan             # change to your github username
+  username: SangKwon-Lee # change to your github username
 
-#twitter:
-#  username: twitter_username            # change to your twitter username
+twitter:
+  username: twitter_username # change to your twitter username
 
 social:
-  name: BokyoungHan                  # it will shows as the copyright owner in Footer
-  email: bkhan@snu.ac.kr             # change to your email address
+  name: Kogong # it will shows as the copyright owner in Footer
+  email: rnrel13@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/bokyounghan       # change to your github homepage
+    - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/sangkwon-lee # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -42,29 +41,27 @@ social:
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
 
-
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
 # change below value to '/projectname'.
-baseurl: ''
+baseurl: ""
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Shanghai
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: "" # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
     enabled: false
     # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+    proxy_url: ""
+    proxy_endpoint: ""
+    cache: false # pv data local cache, good for the users from GFW area.
 
 disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
+  comments: true # boolean type, the global switch for posts comments.
+  shortname: "sangkwon-leegithubio" # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # Prefer color scheme setting.
 #
@@ -78,14 +75,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  # [light|dark]
-
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
-img_cdn: ''
+theme_mode: light
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -94,7 +84,7 @@ paginate: 10
 
 kramdown:
   syntax_highlighter: rouge
-  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
@@ -112,64 +102,50 @@ collections:
     output: true
     sort_by: order
 
-
 defaults:
-  -
-    scope:
-      path: ''          # An empty string here means all files in the project
+  - scope:
+      path: "" # An empty string here means all files in the project
       type: posts
     values:
       layout: post
-      comments: true    # Enable comments in posts.
-      toc: true         # Display TOC column in posts.
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column in posts.
       breadcrumb:
-        -
-          label: Posts
+        - label: Posts
           url: /
-  -
-    scope:
+  - scope:
       path: _drafts
     values:
       comments: false
-  -
-    scope:
+  - scope:
       path: index.html
     values:
       breadcrumb:
-        -
-          label: Posts
-  -
-    scope:
+        - label: Posts
+  - scope:
       path: tags
     values:
       breadcrumb:
-        -
-          label: Home
+        - label: Home
           url: /
-        -
-          label: Tags
+        - label: Tags
           url: /tabs/tags/
-  -
-    scope:
+  - scope:
       path: categories
     values:
       breadcrumb:
-        -
-          label: Home
+        - label: Home
           url: /
-        -
-          label: Categories
+        - label: Categories
           url: /tabs/categories/
-  -
-    scope:
-      path: ''
-      type: tabs             # see `site.collections`
+  - scope:
+      path: ""
+      type: tabs # see `site.collections`
     values:
       layout: page
-      dynamic_title: true    # Hide title in mobile screens.
+      dynamic_title: true # Hide title in mobile screens.
       breadcrumb:
-        -
-          label: Home
+        - label: Home
           url: /
 
 sass:
