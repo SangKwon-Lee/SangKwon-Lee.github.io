@@ -1,4 +1,4 @@
-### [보경의 깃블로그](https://bokyounghan.github.io/)
+### [코공의 깃블로그](https://bokyounghan.github.io/)
 
 - 코딩하는 공자 코공의 블로그
 
