@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "코딩 공부 36일차에 쓰는 눈물 없이 볼 수 없는 회고록"
+title: '코딩 공부 36일차에 쓰는 눈물 없이 볼 수 없는 회고록'
 date: 2020-11-30 11:30:30  +0800
-categories: [TIL, Memoir]
+categories: [TIL, 회고]
 tags: [TIL]
 ---
 
