@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Sequelize 개념 정리를 스프린트로 해보자"
+title: 'Sequelize 개념 정리를 스프린트로 해보자'
 date: 2021-01-19 11:15:30  +0800
-categories: [Javascript, 개념 정리]
-tags: [Javascript, Sequelize, MVC]
+categories: [자바스크립트, 개념 정리]
+tags: [자바스크립트]
 ---
 
 이번에는 Sequelize에 대한 개념을  
@@ -158,7 +158,7 @@ routes에서 연결은 위에 처럼 해주었다.
 또한, 요구사항으로 modules/utils.js에 있는 getUrlTitle이라는 함수를 가져와서 이것을 통해 Title을 받아오라고 한다.
 
 ```js
-const { getUrlTitle } = require("../../modules/utils.js");
+const { getUrlTitle } = require('../../modules/utils.js');
 ```
 
 그래서 Controller.js 제일 위에 요 문구를 적어 주었다. 이제 사용가능 !

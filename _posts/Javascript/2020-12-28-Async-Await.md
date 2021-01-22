@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Async & Await"
+title: 'Async & Await'
 date: 2020-12-28 11:20:30  +0800
-categories: [Javascript, 개념 정리]
-tags: [Javascript, Async & Await]
+categories: [자바스크립트, 개념 정리]
+tags: [자바스크립트]
 ---
 
 ![image](/assets/img/sample/async1.png)

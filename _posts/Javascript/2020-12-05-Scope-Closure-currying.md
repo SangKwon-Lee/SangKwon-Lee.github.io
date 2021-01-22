@@ -2,8 +2,8 @@
 layout: post
 title: "Scope / Closure/currying 개념 파악"
 date: 2020-12-05 11:20:30  +0800
-categories: [Javascript, 개념 정리]
-tags: [Javascript, Scope, Closure, Currying]
+categories: [자바스크립트, 개념 정리]
+tags: [자바스크립트]
 ---
 
 오늘은 스코프와 클로저에 대해 아.라.보.자.

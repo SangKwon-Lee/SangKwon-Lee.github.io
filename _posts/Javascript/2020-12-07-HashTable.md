@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "데이터 자료구조. Hash Table"
+title: '데이터 자료구조. Hash Table'
 date: 2020-12-07 11:20:30  +0800
-categories: [Javascript, Data Structure]
-tags: [Javascript, Data Structure, Hash Table]
+categories: [자바스크립트, Data Structure]
+tags: [자바스크립트]
 ---
 
 hash table 이해하기 너무 어렵잖아.  
@@ -36,9 +36,9 @@ hash table 이해하기 너무 어렵잖아.
 
 ```js
 function hashfn(key) {
-  let pw;
-  pw = Math.floor(key.length / 2);
-  return pw;
+	let pw;
+	pw = Math.floor(key.length / 2);
+	return pw;
 }
 //간단하게 이런식으로 만들 수 있다. 이건 너무 간단하고
 //아스키 코드를 이용하거나 여러 방법이 있다고 한다. 호호
@@ -93,13 +93,13 @@ remove: 해당 데이터를 삭제합니다.
 
 ```js
 const hashFunction = function (str, max) {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    hash = (hash << 5) + hash + str.charCodeAt(i);
-    hash &= hash; // Convert to 32bit integer
-    hash = Math.abs(hash);
-  }
-  return hash % max;
+	let hash = 0;
+	for (let i = 0; i < str.length; i++) {
+		hash = (hash << 5) + hash + str.charCodeAt(i);
+		hash &= hash; // Convert to 32bit integer
+		hash = Math.abs(hash);
+	}
+	return hash % max;
 };
 
 module.exports = hashFunction;
@@ -109,33 +109,33 @@ module.exports = hashFunction;
 
 ```js
 const LimitedArray = function (limit) {
-  const storage = [];
+	const storage = [];
 
-  const limitedArray = {};
-  limitedArray.get = function (index) {
-    checkLimit(index);
-    return storage[index];
-  };
-  limitedArray.set = function (index, value) {
-    checkLimit(index);
-    storage[index] = value;
-  };
-  limitedArray.each = function (callback) {
-    for (let i = 0; i < storage.length; i++) {
-      callback(storage[i], i, storage);
-    }
-  };
+	const limitedArray = {};
+	limitedArray.get = function (index) {
+		checkLimit(index);
+		return storage[index];
+	};
+	limitedArray.set = function (index, value) {
+		checkLimit(index);
+		storage[index] = value;
+	};
+	limitedArray.each = function (callback) {
+		for (let i = 0; i < storage.length; i++) {
+			callback(storage[i], i, storage);
+		}
+	};
 
-  var checkLimit = function (index) {
-    if (typeof index !== "number") {
-      throw new Error("setter requires a numeric index for its first argument");
-    }
-    if (limit <= index) {
-      throw new Error("Error trying to access an over-the-limit index");
-    }
-  };
+	var checkLimit = function (index) {
+		if (typeof index !== 'number') {
+			throw new Error('setter requires a numeric index for its first argument');
+		}
+		if (limit <= index) {
+			throw new Error('Error trying to access an over-the-limit index');
+		}
+	};
 
-  return limitedArray;
+	return limitedArray;
 };
 
 module.exports = LimitedArray;

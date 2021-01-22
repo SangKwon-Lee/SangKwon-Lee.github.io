@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "JavaScript에서 Prototype을 알아보자"
+title: 'JavaScript에서 Prototype을 알아보자'
 date: 2020-12-09 11:20:30  +0800
-categories: [Javascript, 개념 정리]
-tags: [Javascript, Prototype]
+categories: [자바스크립트, 개념 정리]
+tags: [자바스크립트]
 ---
 
 ### 주의
