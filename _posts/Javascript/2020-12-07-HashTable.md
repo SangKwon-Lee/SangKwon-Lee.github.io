@@ -2,7 +2,7 @@
 layout: post
 title: '데이터 자료구조. Hash Table'
 date: 2020-12-07 11:20:30  +0800
-categories: [자바스크립트, Data Structure]
+categories: [Javascript, Data Structure]
 tags: [javascript, hashtable]
 ---
 
