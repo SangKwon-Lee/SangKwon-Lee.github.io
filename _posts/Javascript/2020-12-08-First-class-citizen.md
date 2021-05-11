@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'First-class citizen 일급 객체'
+title: "First-class citizen 일급 객체"
 date: 2020-12-08 11:20:30  +0800
 categories: [Javascript, 개념 정리]
-tags: [javascript, 일급 객체]
+tags: [javascript, 일급객체]
 ---
 
 # **First-class citizen 일급 객체**
@@ -44,13 +44,13 @@ let square = function (num) {
 
 ```js
 function sayHello() {
-	return 'Hello, ';
+	return "Hello, ";
 }
 function greeting(helloMessage, name) {
 	console.log(helloMessage() + name);
 }
 // `sayHello`를 `greeting` 함수에 인자로 전달
-greeting(sayHello, 'JavaScript!');
+greeting(sayHello, "JavaScript!");
 ```
 
 MDN 예제이다.
@@ -60,7 +60,7 @@ MDN 예제이다.
 ```js
 function sayHello() {
 	return function () {
-		console.log('Hello!');
+		console.log("Hello!");
 	};
 }
 ```
