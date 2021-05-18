@@ -14,7 +14,7 @@ React.
 
 ---
 
-## React의 불변성
+## **React의 불변성**
 
 리액트에서는 state의 불변성을 지켜야 한다고 한다.  
 그 이유는 무엇일까?  
@@ -25,17 +25,19 @@ React.
 
 ---
 
-### 기존 DOM의 render 과정
+### **기존 DOM의 render 과정**
 
 DOM은 HTML문서를 객체 기반으로 표현한 방식이다.  
 그래서 우리는 javascript에서 document.querySelector를 이용해서 HTML에 접근할 수 있는 것이다.
 
-먼저, html문서를 읽고 안에 있는 html태그들을 이용해 DOM으로 바꾼다.  
-그러면 자연스럽게 document객체가 생김!  
-그 이후에 css파일을 가져온다.  
-그리고나서 화면에 그려주게 된다.
+1. html문서를 읽고 안에 있는 html태그들을 이용해 DOM으로 바꾼다.
+2. 그러면 자연스럽게 document객체가 생김!
+3. 그 이후에 css파일을 가져온다.
+4. 그리고나서 화면에 그려주게 된다.
 
-### Virtual DOM의 render 과정
+---
+
+### **Virtual DOM의 render 과정**
 
 말 그대로 가상 DOM이다.  
 가짜라는 것.
@@ -45,20 +47,21 @@ DOM은 HTML문서를 객체 기반으로 표현한 방식이다.
 DOM 너도 VR하고싶냐?
 
 만든 이유는 DOM을 더 빠르고 간결화하기 위해서이다.  
-어떻게 하느냐?  
-기존 DOM은 처음부터 끝가지 모든 부분을 랜더링하게 된다.  
-그러면 조금의 데이터만 바뀌어도 처음부터 다 다시 랜더링 해야 한다는 점..
+어떻게 하느냐?
 
-그래서 Virtual DOM을 만들었다.  
-이 녀석의 역할은 DOM에 뿌리기 전에 Virtual DOM에 미리 만들어 보고  
-거기서 기존 DOM과 비교해 바뀐 부분만 DOM에 render할 수 있도록 해준다.  
-오우!
+1. 기존 DOM은 처음부터 끝가지 모든 부분을 랜더링하게 된다.
+2. 그러면 조금의 데이터만 바뀌어도 처음부터 다 다시 랜더링 해야 한다는 점..
+
+3. 그래서 Virtual DOM을 만들었다.
+4. 이 녀석의 역할은 DOM에 뿌리기 전에 Virtual DOM에 미리 만들어 보고
+5. 거기서 기존 DOM과 비교해 바뀐 부분만 DOM에 render할 수 있도록 해준다.  
+   오우!
 
 React가 이 Virtual DOM을 이용해 render를 한다 이말이야.
 
 ---
 
-## React Render
+## **React Render**
 
 ```js
 ReactDOM.render(<App />, document.getElementById("root"));
@@ -84,7 +87,9 @@ setState()는 State의 불변성을 지켜주면서 값을 바꾸게 된다.
 그러면 State의 변경을 확인했으니  
 React는 Render에 들어가게 된다.
 
-## 이제 나오는 React 불변성
+---
+
+## **이제 나오는 React 불변성**
 
 우리는 지금까지 React의 Render 과정과  
 setState가 불변성을 유지시켜준다는 것도 배웠다.
