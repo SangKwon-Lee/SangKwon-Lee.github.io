@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "GraphQL의 기본 개념"
+title: 'GraphQL의 기본 개념'
 date: 2021-05-18 12:00:30  +0800
-categories: [Javascript, GraphQL]
+categories: [Javascript, graphql]
 tags: [javascript, graphql]
 ---
 
