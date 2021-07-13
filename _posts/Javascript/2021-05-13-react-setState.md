@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "React의 개념을 복습하자 [불변성]"
+title: 'React의 개념을 복습하자 [불변성]'
 date: 2021-05-13 12:00:30  +0800
-categories: [Javascript, react]
+categories: [Javascript, React]
 tags: [javascript, react]
 ---
 
@@ -64,7 +64,7 @@ React가 이 Virtual DOM을 이용해 render를 한다 이말이야.
 ## **React Render**
 
 ```js
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 요런 비슷한 코드를 React에서 봤을 것이다.  
@@ -100,10 +100,10 @@ setState가 불변성을 유지시켜준다는 것도 배웠다.
 그럴 때를 위해 우리는 ...연산자를 써야한다.
 
 ```js
-let a = { b: "123" };
+let a = { b: '123' };
 let c = a;
 
-c.b = "1234";
+c.b = '1234';
 ```
 
 이렇게 하면 a와 c의 값이 모두 바뀌게 된다.  
@@ -112,10 +112,10 @@ State에서 무엇이 변경된지 인지하지 못하고,
 이는 Virtual DOM 에서도 문제를 일으키게 된다.
 
 ```js
-let a = { b: "123" };
+let a = { b: '123' };
 let c = a;
 
-c.b = { ...c, c: "1234" };
+c.b = { ...c, c: '1234' };
 ```
 
 이렇게 ... 연산자를 이용하면 기존 a의 값이 변경되지 않는다.  
