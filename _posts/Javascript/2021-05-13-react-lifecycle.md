@@ -2,7 +2,7 @@
 layout: post
 title: "React의 개념을 복습하자 [생명주기]"
 date: 2021-05-13 12:00:30  +0800
-categories: [Javascript, react]
+categories: [Javascript, React]
 tags: [javascript, react]
 ---
 
