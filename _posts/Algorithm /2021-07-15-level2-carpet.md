@@ -1,8 +1,8 @@
 ---
 layout: post
 title: '알고리즘 > 프로그래머스 2단계 카펫'
-date: 2021-07-14 11:20:30  +0800
-categories: [Algorithm, 프로그래머스 1단계]
+date: 2021-07-15 11:20:30  +0800
+categories: [Algorithm, 프로그래머스 2단계]
 tags: [Javascript, algorithm, 프로그래머스]
 ---
 
@@ -58,6 +58,5 @@ Leo가 본 카펫에서 갈색 격자의 수 brown, 노란색 격자의 수 yell
 
 규칙을 알고나니 간단해진 문제.  
 하지만 거기까지 내 머리는 닿지않는 멍청한 머리.
-
 
 ---
