@@ -163,7 +163,6 @@ import WithRouterPage from './withRouter';
 
 ## **Switch**
 
-switch는 여러 route들 중에 단 하나의 route만을 랜더링 시켜주는 기능이다.
 
 ![image](/assets/img/sample/route14.png)
 
