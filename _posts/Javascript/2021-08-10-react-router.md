@@ -180,4 +180,6 @@ import WithRouterPage from './withRouter';
 "리액트를 다루는 기술" 이라는 책의 내용들을 다시 적은 것이다.
 
 이제 다시 react를 쓰고 route를 쓰라하면  
-그래도 금방 적응할 수 있을 것 같다.
+그래도 금방 적응할 수 있을 것 같다.  
+
+굳!!
