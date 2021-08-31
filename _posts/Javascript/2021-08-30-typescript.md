@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '타입스크립트에 공부를 다시 시작하자 1편'
+title: '타입스크립트 공부를 다시 시작하자 1편'
 date: 2021-08-30 12:00:30  +0800
 categories: [Javascript, typescript]
 tags: [javascript, typescript]
@@ -191,12 +191,12 @@ return값의 공통점을 두는 것이 함수를 작성할 때 더 편하다.
 지금 SuccessState와 FailState의 안에는 공통점이 없다.  
 한 번 만들어 주자.  
 
-![image](/assets/img/sample/type14.png)  
+![image](/assets/img/sample/type15.png)  
 위에처럼 만들면 두 개의 State는 result라는 공통 키를 갖고 있다.  
 
 그러면 아래 함수처럼 공통된 값을 갖고 if를 작성할 수 있다.  
 훨씬 직관적으로 함수를 바꿀 수 있는 것이다.  
-![image](/assets/img/sample/type15.png)  
+![image](/assets/img/sample/type16.png)  
 
 정리하면, Union Type을 객쳋로 만들 때는  
 각각의 공통점을 만들어서 코드를 더 직관적이고 구별하기 쉽게 만들어 주자.  
