@@ -51,27 +51,44 @@ str = "good"
 위에서 간단하게 string 타입을 지정해 주는 것을 보았다.  
 그 외에 어떤 타입들이 있을까?  
 
+---  
+
+
 
 #### **기본 타입**  
 아래처럼, number, boolean 타입도 있다.    
 ```js
 let num: number = 5;
 const boal : boolean = false;
-```
+```  
+
+
+---  
+
 
 #### **2가지 이상의 타입 A 혹은 B**  
 혹은 2가지 타입을 동시에 지정할 수도 있다.  
 마크다운 코드는 안 예쁘니 스샷을 찍자.  
 ![image](/assets/img/sample/type1.png)  
 
+---  
+
+
 #### **함수의 type**  
 혹은 함수가 어떤 type을 return 하는지도 지정할 수 있다.  
 ![image](/assets/img/sample/type2.png)  
+
+---  
+
 
 그런데 우리가 함수를 쓰다보면 return이 없을 때도 있다.  
 그런 건 void라고 한다.  
 react를 쓰다보면 void 함수가 참 많긴 하다.  
 ![image](/assets/img/sample/type3.png)  
+
+---  
+
+
 
 #### **any & unknown**  
 이렇게 모든 곳에 type을 지정할수록 코드는 좋아진다.  
@@ -92,6 +109,8 @@ any랑 비슷한 것이 있는데 unknown도 있다.
 unknown과 any는 비슷한 역할이기 때문에  
 주로 any를 쓴다.  
 
+---  
+
 #### **never**  
 
 never 타입은 에러를 return 할 때 쓰는 타입이라고 한다.  
@@ -101,6 +120,8 @@ never 타입은 에러를 return 할 때 쓰는 타입이라고 한다.
 그것이 간지.  
 
 ![image](/assets/img/sample/type6.png)  
+
+---  
 
 #### **object**  
 
@@ -114,7 +135,12 @@ any와 같은 느낌으로,
 
 ![image](/assets/img/sample/type7.png)  
 
+
+---  
+
+
 #### **Array**
+
 
 배열은 타입을 지정하고 나서,  
 배열 안의 요소들이 어떤 타입으로 들어가는지도 지정해줘야 한다.  
