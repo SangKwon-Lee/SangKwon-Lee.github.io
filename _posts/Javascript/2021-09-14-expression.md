@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '연산자에 대해 알아보자'
-date: 2021-09-23 12:00:30  +0800
+title: '표현식과 문에 대해 알아보자'
+date: 2021-09-14 12:00:30  +0800
 categories: [Javascript, 개념정리]
 tags: [javascript]
 ---
