@@ -1,8 +1,8 @@
 ---
 layout: post
-title: '초심으로 돌아가 공부하는 Front-End 1편'
+title: '초심으로 돌아가 공부하는 Front-End 1편 기초'
 date: 2022-01-28 12:00:30  +0800
-categories: [Javascript, basic]
+categories: [Lecture, basic]
 tags: [javascript]
 ---
 
