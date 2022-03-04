@@ -11,7 +11,7 @@ tags: [javascript]
 순수 HTML CSS JS로만 만들었다.  
 
 
-https://dreamy-heisenberg-cef552.netlify.app/
+[스타벅스 홈페이지 포폴](https://dreamy-heisenberg-cef552.netlify.app/)
 
 ---
 
