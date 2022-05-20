@@ -2,7 +2,7 @@
 layout: post
 title: '강의보고 만든 Starbucks Homepage'
 date: 2022-02-21 12:00:30  +0800
-categories: [Javascript, gql]
+categories: [Lecture, starbucks]
 tags: [javascript]
 ---
 
