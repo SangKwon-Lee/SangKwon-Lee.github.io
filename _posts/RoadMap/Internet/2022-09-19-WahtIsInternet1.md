@@ -2,7 +2,7 @@
 layout: post
 title: "인터넷이란 무엇일까?"
 date: 2022-09-19 11:20:30 +0800
-categories: [RoadMap, Internet]
+categories: [Roadmap, Internet]
 tags: [Internet]
 ---
 
