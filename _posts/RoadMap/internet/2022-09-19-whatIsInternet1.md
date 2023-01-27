@@ -2,8 +2,8 @@
 layout: post
 title: "인터넷이란 무엇일까?"
 date: 2022-09-19 11:20:30 +0800
-categories: [Roadmap, browser]
-tags: [browser]
+categories: [Roadmap, internet]
+tags: [internet]
 ---
 
 Front-end 로드맵을 보는데 가장 처음 시작이 Internet이었다.  
